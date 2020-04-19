@@ -4,12 +4,12 @@ import * as d3 from 'd3'
 import './D3TreeMap.css';
 
 const data = [
-    {"market":"Origin","growthPercent":"","marketId":"","volume":"","parent":""},
-    {"market":"DT_Central","growthPercent":35.58,"marketId":5,"volume":555,"parent":"Origin"},
-    {"market":"DT_HCME","growthPercent":26.44,"marketId":6,"volume":1439,"parent":"Origin"},
-    {"market":"DT_MKD","growthPercent":4.14,"marketId":7,"volume":757,"parent":"Origin"},
-    {"market":"DT_North","growthPercent":15.65,"marketId":8,"volume":3275,"parent":"Origin"},
-    {"market":"GT","growthPercent":16.57,"marketId":9,"volume":5952,"parent":"Origin"}
+    {"region":"Origin","population":"","regionId":"","land":"","parent":""},
+    {"region":"West Australia","population":35.58,"regionId":5,"land":555,"parent":"Origin"},
+    {"region":"New Zealand","population":26.44,"regionId":6,"land":1439,"parent":"Origin"},
+    {"region":"Indonesia","population":4.14,"regionId":7,"land":757,"parent":"Origin"},
+    {"region":"Korea","population":15.65,"regionId":8,"land":3275,"parent":"Origin"},
+    {"region":"Denmark","population":16.57,"regionId":9,"land":5952,"parent":"Origin"}
 ]
 
 const getHeatMap = (data) => {
